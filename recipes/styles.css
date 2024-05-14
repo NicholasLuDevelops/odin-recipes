@@ -16,8 +16,7 @@ h1 {
 }
 
 .description,
-.ingredients,
-.instructions {
+.box {
   font-size: 2rem;
 }
 
@@ -39,7 +38,7 @@ h1 {
   text-align: left;
 } */
 
-.box p{
+.box p {
   text-align: left;
   margin-left: 10%;
   font-size: 3rem;
