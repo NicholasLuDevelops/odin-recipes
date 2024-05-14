@@ -1,0 +1,29 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: hsl(76, 44%, 34%);
+  color: rgb(51, 255, 0);
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+div {
+    text-align: center;
+    color: black;
+    width: 300px;
+    border: 3px dashed violet;
+    padding: 100px 1px;
+    margin: auto;
+
+}
+
+.recipe_list {
+  display: inline-block;
+  text-align: left;
+}
+
+.recipes {
+    margin-bottom: 1rem;
+}
