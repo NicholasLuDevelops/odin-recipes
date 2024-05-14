@@ -2,3 +2,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: beige;
 }
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: auto;
+}
