@@ -7,23 +7,28 @@ body {
 h1 {
   text-align: center;
   font-size: 4rem;
+  /* border: 1px solid black; */
 }
 
-div {
-    text-align: center;
-    color: black;
-    width: 300px;
-    border: 3px dashed violet;
-    padding: 100px 1px;
-    margin: auto;
-
+.box {
+  box-sizing: border-box;
+  /* text-align: center; */
+  color: black;
+  border: 3px dashed violet;
+  width: fit-content;
+  /* padding: 2rem; */
+  margin: 0 auto;
 }
 
 .recipe_list {
+  /* border: 1px solid; */
   display: inline-block;
-  text-align: left;
+  /* margin: 1rem; */
+  padding-right: 1.5rem;
+  /* text-align: left; */
+  /* margin-left: -5%; */
 }
 
 .recipes {
-    margin-bottom: 1rem;
+  margin: 1rem 0;
 }
