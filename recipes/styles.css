@@ -1,12 +1,22 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
   background-color: beige;
 }
 
+.title {
+  border: 3px solid rgb(250, 75, 100);
+  width: 500px;
+  margin: 0 auto;
+}
+
 img {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
   display: block;
   margin: 50px auto;
   width: 500px;
+  padding: 0 25px;
   height: auto;
 }
 
@@ -15,32 +25,32 @@ h1 {
   font-size: 6rem;
 }
 
-.description,
+.description {
+  /* border: 1px solid black; */
+  text-align: left;
+  width: 450px;
+  margin: 25px auto;
+}
+
 .box {
-  font-size: 2rem;
+  /* text-align: center; */
+  border: 3px solid rgb(250, 75, 100);
+  width: 500px;
+  margin: 2rem auto;
 }
-
-/* .box {
-  text-align: center;
-  border: 3px solid black;
-  margin: 100px;
-  overflow-wrap: break-word;
-} */
-
-.box ul,
-.box ol {
-  display: inline-block;
-  text-align: left;
-  line-height: 1.5em;
-}
-/* 
-.unordered_list li {
-  text-align: left;
-} */
 
 .box p {
+  /* border: 1px solid black; */
   text-align: left;
-  margin-left: 10%;
+  margin-left: 5%;
   font-size: 3rem;
   font-weight: 400;
+  width: fit-content;
+}
+
+.list {
+  /* border: 1px solid black; */
+  line-height: 1.5em;
+  width: 450px;
+
 }
