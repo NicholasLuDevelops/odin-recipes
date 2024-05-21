@@ -25,6 +25,11 @@ h1 {
   font-size: 6rem;
 }
 
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
 .description {
   /* border: 1px solid black; */
   text-align: left;
@@ -43,7 +48,7 @@ h1 {
   /* border: 1px solid black; */
   text-align: left;
   margin-left: 5%;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 400;
   width: fit-content;
 }
